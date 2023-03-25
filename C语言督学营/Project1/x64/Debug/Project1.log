@@ -1,0 +1,6 @@
+﻿  main.c
+D:\Github\text\C语言督学营\Project1\main.c(11,29): error C2143: 语法错误: 缺少“)”(在“&”的前面)
+D:\Github\text\C语言督学营\Project1\main.c(11,29): error C2143: 语法错误: 缺少“{”(在“&”的前面)
+D:\Github\text\C语言督学营\Project1\main.c(11,29): error C2059: 语法错误:“&”
+D:\Github\text\C语言督学营\Project1\main.c(11,32): error C2059: 语法错误:“)”
+D:\Github\text\C语言督学营\Project1\main.c(42,5): warning C4013: “list_head_insert”未定义；假设外部返回 int

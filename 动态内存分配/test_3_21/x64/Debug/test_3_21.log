@@ -1,0 +1,6 @@
+﻿  main.c
+D:\Github\text\动态内存分配\test_3_21\main.c(23,16): warning C4133: “=”: 从“Node *”到“node_S *”的类型不兼容
+D:\Github\text\动态内存分配\test_3_21\main.c(38,5): warning C4133: “=”: 从“node_S *”到“Node *”的类型不兼容
+D:\Github\text\动态内存分配\test_3_21\main.c(34,8): warning C4133: “初始化”: 从“node_S *”到“Node *”的类型不兼容
+D:\Github\text\动态内存分配\test_3_21\main.c(41): warning C4716: “print_list”: 必须返回一个值
+  test_3_21.vcxproj -> D:\Github\text\动态内存分配\x64\Debug\test_3_21.exe

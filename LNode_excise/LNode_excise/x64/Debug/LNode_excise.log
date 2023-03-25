@@ -1,0 +1,3 @@
+﻿  mian.cpp
+D:\Github\text\LNode_excise\LNode_excise\mian.cpp(35,11): warning C4101: “s”: 未引用的局部变量
+  LNode_excise.vcxproj -> D:\Github\text\LNode_excise\x64\Debug\LNode_excise.exe
