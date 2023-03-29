@@ -1,0 +1,8 @@
+﻿  mian.c
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(17,14): warning C4552: ”+“: 未使用表达式结果
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(55,9): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(55,9): message : 请考虑在格式字符串中使用“%lld”
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(55,9): message : 请考虑在格式字符串中使用“%Id”
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(55,9): message : 请考虑在格式字符串中使用“%I64d”
+D:\C-Code\英语拼写机器\英语拼写机器\mian.c(28,7): warning C4101: “ch”: 未引用的局部变量
+  英语拼写机器.vcxproj -> D:\C-Code\英语拼写机器\x64\Debug\英语拼写机器.exe
