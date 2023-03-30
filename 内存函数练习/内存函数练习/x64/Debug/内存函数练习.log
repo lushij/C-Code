@@ -1,0 +1,3 @@
+﻿  memset.c
+D:\C-Code\内存函数练习\内存函数练习\memset.c(7,2): warning C4013: “memset”未定义；假设外部返回 int
+  内存函数练习.vcxproj -> D:\C-Code\内存函数练习\x64\Debug\内存函数练习.exe

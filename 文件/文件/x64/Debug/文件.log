@@ -1,0 +1,3 @@
+﻿  fgetc.c
+D:\C-Code\文件\文件\fgetc.c(9,3): warning C4013: “exit”未定义；假设外部返回 int
+  文件.vcxproj -> D:\C-Code\文件\x64\Debug\文件.exe
