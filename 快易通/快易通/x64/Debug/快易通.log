@@ -1,0 +1,3 @@
+﻿  mian.cpp
+D:\C-Code\快易通\快易通\mian.cpp(43): warning C4715: “search_stu”: 不是所有的控件路径都返回值
+  快易通.vcxproj -> D:\C-Code\快易通\x64\Debug\快易通.exe
