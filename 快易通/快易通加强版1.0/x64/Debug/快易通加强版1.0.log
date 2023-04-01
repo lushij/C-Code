@@ -1,0 +1,6 @@
+﻿  mian.cpp
+D:\C-Code\快易通\快易通加强版1.0\mian.cpp(58,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\C-Code\快易通\快易通加强版1.0\mian.cpp(84,26): error C2440: “=”: 无法从“Qyt *”转换为“char *”
+D:\C-Code\快易通\快易通加强版1.0\mian.cpp(84,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\C-Code\快易通\快易通加强版1.0\mian.cpp(93,24): error C2440: “=”: 无法从“void *”转换为“char *”
+D:\C-Code\快易通\快易通加强版1.0\mian.cpp(93,24): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
