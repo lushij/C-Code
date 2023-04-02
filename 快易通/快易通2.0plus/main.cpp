@@ -40,7 +40,7 @@ int main()
 	//char zh[256] = "";
 	//printf("请输入你要查找的单词：");
 	//fgets(eng, sizeof(eng), stdin);
-	//eng[strlen(eng) - 1] = 0;//把eng最后的一个字符给赋值为0，fgets的弊端
+	//eng[strlen(eng) - 1] = 0;//把eng最后的一个字符给赋值为0，fgets的弊端//一定要仔细
 	//for (int i = 0; i < n; i++)
 	//{
 	//	if (strcmp(eng, qyt[i].eng) == 0)
