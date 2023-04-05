@@ -6,6 +6,7 @@
 int main()
 {
 	//init_ui();
+	
 	//申请蛇的结构体
 	Snake* snake =(Snake*) malloc(sizeof(Snake));
 	//初始化边界

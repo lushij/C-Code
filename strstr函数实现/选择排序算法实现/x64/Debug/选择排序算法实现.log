@@ -1,0 +1,4 @@
+﻿  mian.c
+D:\C-Code\strstr函数实现\选择排序算法实现\mian.c(23,18): warning C4047: “=”:“char *”与“char”的间接级别不同
+D:\C-Code\strstr函数实现\选择排序算法实现\mian.c(21,9): warning C4047: “初始化”:“char”与“char *”的间接级别不同
+  选择排序算法实现.vcxproj -> D:\C-Code\strstr函数实现\x64\Debug\选择排序算法实现.exe

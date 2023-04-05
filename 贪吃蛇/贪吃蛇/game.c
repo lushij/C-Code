@@ -82,8 +82,18 @@ void show_game(Snake* snake)
 		{
 			printf("*");
 		}
-
 	}
+	snake->coord.X = snake->food.x;
+	snake->coord.Y = snake->food.y;
+	//window光标显示接口，直接引用即可
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), snake->coord);
+	printf("#");
+	//将原来尾巴的位置显示为空格
+	snake->coord.X = snake->tail.x;
+	snake->coord.Y = snake->tail.y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), snake->coord);
+	printf(" ");
+	
 }
 
 
@@ -115,6 +125,7 @@ void control_move(Snake* snake)
 		break;
 	}
 }
+
 void move_snake(Snake* snake)
 {
 	//记录尾巴的坐标
@@ -128,6 +139,12 @@ void move_snake(Snake* snake)
 	//更新蛇头
 	snake->list[0].x += snake->dx;
 	snake->list[0].y += snake->dy;
+	
+	Sleep(100);
+	system("cls");//清屏
+	//显示更新后的坐标
+	init_wall(snake);
+	show_game(snake);
 }
 
 //结束游戏
@@ -144,11 +161,12 @@ void end_game(Snake* snake)
 //开始游戏
 void start_game(Snake* snake)
 {
-	while (1)
+	while (snake->list[0].x < 60 && snake->list[0].x >= 0 &&
+		snake->list[0].y < 20 && snake->list[0].y >= 0)
 	{
 		//控制移动
 		control_move(snake);
 		//更新坐标
 		move_snake(snake);
-	}
 }
+	}
