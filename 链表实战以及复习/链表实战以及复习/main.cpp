@@ -71,6 +71,40 @@ void print_list(LNode* pHeader)
 	}
 	printf("\n");
 }
+
+//清空链表
+void clear_list(LNode*& pHeader)
+{
+	if (pHeader == NULL)
+	{
+		perror("");
+		exit(1);
+	}
+	LNode* pCurrent = pHeader->next;
+	while (pCurrent)
+	{
+		//预留位置
+		Linklist preV = pCurrent->next;
+		free(pCurrent);
+		pCurrent = preV;
+	}
+	pHeader->next = NULL;
+}
+//销毁链表
+void desory_list(Linklist& pHeader)
+{
+	if (pHeader == NULL)
+	{
+		perror("");
+		exit(1);
+	}
+	clear_list(pHeader);
+	free(pHeader);
+	pHeader = NULL;
+
+}
+
+
 int main()
 {
 	LNode* pHeader = NULL;
@@ -78,10 +112,19 @@ int main()
 	add_LinkList(pHeader);
 	//遍历链表
 	print_list(pHeader);
-	//插入数据进行修改
+	////插入数据进行修改
+	//insert_list(pHeader);
+	////遍历链表
+	//print_list(pHeader);
+	//清空链表,只是清除数据链表 不会消除头结点
+	clear_list(pHeader);
+	////插入数据进行修改
 	insert_list(pHeader);
 	//遍历链表
 	print_list(pHeader);
 
+
+	//销毁链表彻底消除链表
+	desory_list(pHeader);
 	return 0;
 }
