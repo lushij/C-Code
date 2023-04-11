@@ -58,6 +58,17 @@ int  delList(Sqlist& L,int j,int &x)//c++引用
 	L.len--;
 }
 
+
+//查找数据按照位置查找
+int  search(Sqlist L,int j)
+{
+	//判断删除位置是否合法
+	if (j<1 || j>L.len)
+	{
+		return 0 ;
+	}
+	return L.data[j - 1];
+}
 int main()
 {
 	Sqlist L;
@@ -85,5 +96,10 @@ int main()
 	printf("删除数据为：%d\n", x);
 	printf("-----------------\n");
 	pint(L);
+	printf("\n-----------------\n");
+
+	//查找数据按照位置查找
+	int num=search(L,5);
+	printf("\n第5个位置是%d\n", num);
 	return 0;
 }

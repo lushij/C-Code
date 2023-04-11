@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列实战以及相关操作", "队列实战以及相关操作\队列实战以及相关操作.vcxproj", "{BF665DA6-9465-4962-8479-A485B2DDA02D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "循环队列", "循环队列\循环队列.vcxproj", "{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Debug|x64.ActiveCfg = Debug|x64
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Debug|x64.Build.0 = Debug|x64
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Debug|x86.Build.0 = Debug|Win32
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Release|x64.ActiveCfg = Release|x64
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Release|x64.Build.0 = Release|x64
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Release|x86.ActiveCfg = Release|Win32
+		{BF665DA6-9465-4962-8479-A485B2DDA02D}.Release|x86.Build.0 = Release|Win32
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Debug|x64.ActiveCfg = Debug|x64
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Debug|x64.Build.0 = Debug|x64
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Debug|x86.Build.0 = Debug|Win32
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Release|x64.ActiveCfg = Release|x64
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Release|x64.Build.0 = Release|x64
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Release|x86.ActiveCfg = Release|Win32
+		{6C937018-9A3A-4F5C-A5C2-C803E0A0AC80}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C02E220E-AD4C-4075-9254-A9EAC7CBA146}
+	EndGlobalSection
+EndGlobal
