@@ -72,12 +72,12 @@ void freach(Bitree tree)
 
 }
 
-int main()
-{
-	Tree* tree=NULL;//建立根节点，必须初始化空
-	//初始化树
-	init_tree(tree);
-	//遍历二叉树
-	freach(tree);
-	return 0;
-}
+//int main()
+//{
+//	Tree* tree=NULL;//建立根节点，必须初始化空
+//	//初始化树
+//	init_tree(tree);
+//	//遍历二叉树
+//	freach(tree);
+//	return 0;
+//}
